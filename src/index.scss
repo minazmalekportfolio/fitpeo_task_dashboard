@@ -1,0 +1,228 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(14, 14, 14) !important;
+  color: white;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.bg-darkgray,
+.card-darkray {
+  background-color: #202028 !important;
+}
+
+.header {
+  background-color: #333;
+  position: sticky !important;
+  top: 0;
+  z-index: 1;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-right span {
+  background-color: #46474c;
+  flex-direction: column;
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+}
+
+.navbar-right span svg {
+  fill: white;
+}
+
+.profile-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  object-fit: cover;
+  margin-left: 30px;
+}
+
+.search--input span,
+.search--input input,
+.search--input input:focus {
+  background-color: #2a2b30;
+  color: white;
+  border-color: white;
+}
+
+.search--input input::placeholder {
+  color: white;
+}
+
+.sidebar {
+  padding-top: 10px;
+  margin-top: 58px;
+  width: 70px;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding-bottom: 70px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-top-icons,
+.font-white {
+  color: white;
+}
+
+.sidebar-top-icons span {
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.dashboard-right {
+  margin-left: 70px;
+}
+
+.logo {
+  width: 30px;
+}
+
+.font-size-smaller {
+  font-size: 11px;
+}
+
+.arrow-icon {
+  width: 25px;
+  height: 25px;
+  opacity: 0.8;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.card-custom {
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  background-color: #202028;
+}
+
+.percentage-positive {
+  color: green;
+}
+
+.percentage-negative {
+  color: red;
+}
+
+.fs-big {
+  font-size: 26px;
+}
+
+.percentage-icon,
+.fs-smaller {
+  font-size: 0.9rem;
+}
+
+.percentage-text,
+.percentage-positive {
+  color: #21dc21;
+  margin-bottom: 0;
+}
+
+.fs-smaller {
+  font-size: 0.65rem;
+}
+
+.icon-up {
+  color: #16cc16;
+}
+
+.chart-container {
+  width: 100%;
+  height: 100%;
+}
+
+.custom-dropdown-menu {
+  background-color: #4c4d52 !important;
+  border-radius: 20px !important;
+  font-size: 0.9rem !important;
+  border: 0 !important;
+}
+
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.section-body {
+  padding: 15px 10px;
+}
+
+.title-md {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+.recharts-text {
+  font: 0.9rem;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 14px;
+}
+
+.imp-link-img {
+  width: 65px;
+  height: 65px;
+  object-fit: cover;
+}
+
+@media (max-width: 991px) {
+  .fs-big {
+    font-size: 16px;
+  }
+
+  .imp-link-img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .card-image {
+    width: 28px;
+  }
+
+  .percentage-container {
+    gap: 3px;
+  }
+
+  .percentage-icon,
+  .fs-smaller,
+  .percentage-text,
+  .percentage-positive {
+    font-size: 0.7rem;
+  }
+
+  p {
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  .net-profit-value {
+    font-size: 1.2rem;
+  }
+}

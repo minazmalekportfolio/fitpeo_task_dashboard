@@ -1,0 +1,59 @@
+.profit-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.profit-details {
+  margin-bottom: 20px;
+}
+
+.net-profit-title {
+  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+}
+
+.net-profit-value {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.chart-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chart-container > div:first-child {
+  width: 100px !important;
+  height: 100px !important;
+}
+
+.chart-overlay {
+  position: absolute;
+  text-align: center;
+}
+
+.progress-value {
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+.goal-completed {
+  font-size: 0.7rem;
+  margin: 0;
+}
+
+@media (max-width: 767.98px) {
+  .progress-value {
+    font-size: 1rem;
+  }
+
+  .net-profit-value {
+    font-size: 1.2rem;
+  }
+}

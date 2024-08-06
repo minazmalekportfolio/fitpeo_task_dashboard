@@ -1,0 +1,50 @@
+.recentorder-tb-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .tag {
+    display: inline-block;
+    padding: 2px 6px;
+    border-radius: 10px;
+    color: white;
+    font-size: 0.9rem;
+  
+    &-green {
+      background-color: #115747;
+      color: #01b27f;
+    }
+  
+    &-red {
+      background-color: #5f3332;
+      color: #e45b5a;
+    }
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  
+    th, td {
+      padding: 15px;
+    }
+  
+    tr:not(:last-child) {
+      border-bottom: 1px solid #2f3037;
+    }
+  
+    th {
+      color: white;
+      border-bottom: 1px solid #2f3037;
+    }
+  }
+  
+  @media (max-width: 767.98px) {
+    .recentorder-tb-img {
+      width: 30px;
+      height: 30px;
+    }
+  }
+  
